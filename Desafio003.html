@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes e depois</title>
+</head>
+<body>
+    <h1>Antes e Depois</h1>
+    <input type="text" name="txtnum" id="txtnum">
+    <input type="button" value="Antes e Depois" onclick="antes()">
+    <div res>
+    <script>
+        function antes(){
+            var numero= document.getElementById("txtnum")
+            var result = Number(txtnum.value)
+            var result1 = (result - 1)
+            var result2 = (result + 1)
+        window.alert(`Antes de ${result}, temos ${result1}\nDepois do ${result}, temos ${result2}`)
+        }
+    </script>
+</body>
+</html>
